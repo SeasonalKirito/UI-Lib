@@ -19,7 +19,7 @@ Have fun useing the UI Lib.
 --]]
 
 
-	local bootup = {
+	
 
 	local TweenService = game:GetService("TweenService")
 	local UserInputService = game:GetService("UserInputService")
@@ -1489,5 +1489,5 @@ Have fun useing the UI Lib.
 		end
 		return window
 	end
-}
+
 
