@@ -32,6 +32,7 @@ local Sections = {
     Changelogs = {
          Updates = Tabs.Changelogs:Section("Updates");
          Updates = Tabs.Changelogs:Section("Credits");
+    };
     Home = {
         Credits = Tabs.Home:Section("Discord");
     };
