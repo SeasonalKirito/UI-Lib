@@ -1,4 +1,4 @@
-local startup = {
+
 
 local TweenService = game:GetService("TweenService")
 local UserInputService = game:GetService("UserInputService")
@@ -8,6 +8,8 @@ local Mouse = Player:GetMouse()
 local TextService = game:GetService("TextService")
 local library = {flags = {}}
 
+local startup = {
+	
 local function tweenObject(object, data, time)
 		local tweenInfo = TweenInfo.new(time, Enum.EasingStyle.Sine, Enum.EasingDirection.Out)
 		local tween = TweenService:Create(object, tweenInfo, data)
