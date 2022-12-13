@@ -1,12 +1,35 @@
-local TweenService = game:GetService("TweenService")
-local UserInputService = game:GetService("UserInputService")
-local Players = game:GetService("Players")
-local Player = Players.LocalPlayer
-local Mouse = Player:GetMouse()
-local TextService = game:GetService("TextService")
-local library = {flags = {}}
+--[[
 
-local function tweenObject(object, data, time)
+
+
+
+Epic Thing Relived
+
+This UI Lib was not fully created by @SEASONAL#1235
+as this UI lib was very old and was used in this old
+cracked script.
+
+This UI Lib was started a year ago and has not been used as much since.
+
+Have fun useing the UI Lib.
+
+
+
+
+--]]
+
+
+	local bootup = {
+
+	local TweenService = game:GetService("TweenService")
+	local UserInputService = game:GetService("UserInputService")
+	local Players = game:GetService("Players")
+	local Player = Players.LocalPlayer
+	local Mouse = Player:GetMouse()
+	local TextService = game:GetService("TextService")
+	local library = {flags = {}}
+
+	local function tweenObject(object, data, time)
 		local tweenInfo = TweenInfo.new(time, Enum.EasingStyle.Sine, Enum.EasingDirection.Out)
 		local tween = TweenService:Create(object, tweenInfo, data)
 		tween:Play()
@@ -104,6 +127,9 @@ local function tweenObject(object, data, time)
 		MainUITabPickedHolder.BackgroundTransparency = 1.000
 		MainUITabPickedHolder.Position = UDim2.new(0.226860255, 0, 0.0866336599, 0)
 		MainUITabPickedHolder.Size = UDim2.new(0, 426, 0, 369)
+		
+			
+		
 		local connections = {}
 
 		MainUIFrame.InputBegan:connect(function(input)
@@ -1463,3 +1489,5 @@ local function tweenObject(object, data, time)
 		end
 		return window
 	end
+}
+
